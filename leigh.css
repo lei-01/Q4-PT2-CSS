@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0d0d0d;
+    color: #f5f5f5;}
+
+.logo {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #000000, #1a1a1a);}
+
+.logo h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 52px;
+    letter-spacing: 5px;
+    color: #d4af37;
+    margin: 0;}
+
+.glow {
+    animation: glow 2.5s ease-in-out infinite alternate;}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #d4af37,
+                     0 0 10px #d4af37,
+                     0 0 20px #b8962e;}
+    to {
+        text-shadow: 0 0 15px #d4af37,
+                     0 0 30px #d4af37,
+                     0 0 45px #b8962e;}
+
+.logo p {
+    font-style: italic;
+    color: #c5b358;
+    margin-top: 15px;}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    border-top: 1px solid #d4af37;
+    border-bottom: 1px solid #d4af37;}
+
+.navbar a {
+    color: #d4af37;
+    text-decoration: none;
+    padding: 18px 30px;
+    transition: 0.4s;
+    font-weight: 500;
+    letter-spacing: 1px;}
+
+.navbar a:hover {
+    background-color: #d4af37;
+    color: black;}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+    animation: fadeIn 1.5s ease;}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    color: #d4af37;
+    margin-bottom: 20px;}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);}
+    to {
+        opacity: 1;
+        transform: translateY(0);}
+
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;}
+
+.product-card {
+    background: #141414;
+    width: 260px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #d4af37;
+    transition: 0.4s;}
+
+.product-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 0 25px #d4af37;}
+
+.product-card img {
+    width: 100%;
+    border-radius: 12px;}
+
+.product-card h3 {
+    color: #d4af37;
+    margin-top: 15px;}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background: #1a1a1a;
+    border: 1px solid #d4af37;
+    color: white;
+    border-radius: 8px;}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #d4af37;}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #d4af37;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;}
+
+button:hover {
+    background: #b8962e;
+    box-shadow: 0 0 15px #d4af37;}
+
+
+footer {
+    background: #000;
+    color: #aaa;
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid #d4af37;}

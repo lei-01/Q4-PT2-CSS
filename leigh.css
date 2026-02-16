@@ -122,6 +122,12 @@ body {
 .product-card:hover {
     transform: translateY(-5px);}
 
+.video-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto 100px auto;
+    position: relative;
+    z-index: 1;}
 
 .contact {
     padding: 120px 20px 50px;}
@@ -167,4 +173,5 @@ footer {
     font-size: 0.9rem;
     margin-top: 50px;
     color: #ccc;}
+
 

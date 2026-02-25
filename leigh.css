@@ -50,6 +50,28 @@ body {
 .navbar .nav-links .active {
     color: #c9b37a;}
 
+.leftcolumn{
+    float:left;
+    width:72%;}
+
+.card{
+    background: linear-gradient(145deg,#140909,#1f1111);
+    padding:30px;
+    margin-top:30px;
+    border-radius:6px;
+    border:1px solid rgba(255,230,200,0.08);
+    box-shadow:0 10px 30px rgba(0,0,0,0.6);}
+
+.card img{
+    width:100%;
+    border-radius:4px;
+    filter:brightness(0.85) contrast(1.05);
+}
+
+iframe{
+    border-radius:4px;
+    margin-top:15px;
+    filter:sepia(20%) brightness(0.85);}
 
 .hero {
     height: 100vh;
@@ -173,5 +195,6 @@ footer {
     font-size: 0.9rem;
     margin-top: 50px;
     color: #ccc;}
+
 
 

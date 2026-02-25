@@ -51,7 +51,7 @@ body {
     color: #c9b37a;}
 
 .leftcolumn{
-    float:center;
+    margin: 0 auto;
     width:72%;}
 
 .card{
@@ -195,6 +195,7 @@ footer {
     font-size: 0.9rem;
     margin-top: 50px;
     color: #ccc;}
+
 
 
 

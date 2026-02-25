@@ -55,13 +55,12 @@ body {
     justify-content: center;   
 }
 
-.leftcolumn {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    width: 72%;
-    min-height: 100vh;
-}
+.leftcolumn{
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   width: 100%;
+   min-height: 100vh;}
 
 .card {
     background: linear-gradient(145deg,#140909,#1f1111);
@@ -199,6 +198,7 @@ footer {
     font-size: 0.9rem;
     margin-top: 50px;
     color: #ccc;}
+
 
 
 
